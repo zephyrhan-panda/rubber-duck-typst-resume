@@ -1,7 +1,4 @@
-import os
-
-# 定义 README 内容
-readme_content = """# 🦆 rubber-duck-typst-resume
+# 🦆 rubber-duck-typst-resume
 
 > **"If your duck doesn't understand your CV, neither will the recruiter."**
 
@@ -18,7 +15,7 @@ readme_content = """# 🦆 rubber-duck-typst-resume
 
 ## 🛠️ 项目特性 (Core Specs)
 
-- **Atomic Design**: 样式与内容完全解耦，修改经历只需填表，无需关心底层排版。
+- **Atomic Design**: 样式与内容完全解耦，修改经历只需填表。
 - **Type-Safe Layout**: 借力 Typst 的强类型系统，彻底告别 LaTeX 诡异的溢出报错。
 - **Zero-Bloat**: 没有任何无用的依赖，编译速度快到感知不到。
 - **CI-Ready**: 配合 GitHub Actions，实现“推送到 master 即自动发布 PDF”。
@@ -28,11 +25,8 @@ readme_content = """# 🦆 rubber-duck-typst-resume
 项目内置了 `just` 指令集，方便快速调用：
 
 ```bash
-# 启动开发模式（边改边看，配合 Tinymist 插件）
+# 启动开发模式（边改边看）
 just dev
 
-# 生产环境编译，生成最终 PDF
+# 生产环境编译
 just build
-
-# 清理冗余文件
-just clean
