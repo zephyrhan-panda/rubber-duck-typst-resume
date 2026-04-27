@@ -1,0 +1,24 @@
+---
+on:
+  workflow_dispatch:
+
+jobs:
+  build-resume:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build resume
+        run: |
+          docker run --rm -i \
+            --volume ${{ github.workspace }}:/mnt \
+            --workdir "/mnt" \
+            "ghcr.io/typst/typst:latest" \
+            typst \
+            compile \
+            --font-path "./templates/latex/assets/fonts" \
+            resume.typ "resume.pdf"
+      - name: Upload Resume
+        uses: actions/upload-artifact@v3
+        with:
+          path: "*.pdf"
