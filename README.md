@@ -1,4 +1,3 @@
-# 🦆 rubber-duck-typst-resume
 
 # 🦆 rubber-duck-typst-resume
 
