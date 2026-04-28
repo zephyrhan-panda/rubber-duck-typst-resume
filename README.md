@@ -4,7 +4,7 @@
 <p align="left">
   <img src="./assets/image/duck.svg" width="80" alt="Rubber Duck">
 </p>
-> **"If your duck doesn't understand your CV, neither will the recruiter."**
+> "If your duck doesn't understand your CV, neither will the recruiter."
 
 ![Typst Version](https://img.shields.io/badge/Typst-0.11.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
