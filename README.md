@@ -8,8 +8,6 @@
 
 ![Typst Version](https://img.shields.io/badge/Typst-0.11.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![GPA](https://img.shields.io/badge/GPA-94.9%2F100-success)
-![Math_Linear_Algebra](https://img.shields.io/badge/Linear--Algebra-99%2F100-gold)
 
 这是一个极致简洁、基于 [Typst](https://typst.app/) 的简历引擎。它旨在用最少的代码冗余，生成最具鲁棒性的排版结果。
 
