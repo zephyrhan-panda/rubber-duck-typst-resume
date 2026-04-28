@@ -9,16 +9,16 @@
 ![Typst Version](https://img.shields.io/badge/Typst-0.11.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-这是一个极致简洁、基于 [Typst](https://typst.app/) 的简历引擎。它旨在用最少的代码冗余，生成最具鲁棒性的排版结果。
+这是一个极简、制作方便、基于 [Typst](https://typst.app/) 的简历引擎。它旨在用最少的代码冗余，生成最具Robustness的简历排版结果。
 
 ---
 
 ## 🛠️ 项目特性 (Core Specs)
 
-- **Atomic Design**: 样式与内容完全解耦，修改经历只需填表。
-- **Type-Safe Layout**: 借力 Typst 的强类型系统，彻底告别 LaTeX 诡异的溢出报错。
-- **Zero-Bloat**: 没有任何无用的依赖，编译速度快到感知不到。
-- **CI-Ready**: 配合 GitHub Actions，实现“推送到 master 即自动发布 PDF”。
+-  样式与内容完全解耦，修改经历只需填表。
+-  借力 Typst 的强类型系统，彻底告别 LaTeX 诡异的溢出报错。
+-  没有任何无用的依赖，编译速度快到感知不到。
+-  配合 GitHub Actions，实现“推送到 master 即自动发布 PDF”。
 
 ## 🚀 开发者指令 (Dev Commands)
 
